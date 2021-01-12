@@ -7,6 +7,11 @@ import org.springframework.data.repository.CrudRepository;
  * @author Administrator
  */
 public interface CustomerRepository extends CrudRepository<Customer, Long> {
+	/**
+	 * 根据lastName获取Customer
+	 * @param lastName 名字
+	 * @return customer对象
+	 */
 	List<Customer> findByLastName(String lastName);
 
 	/**
