@@ -21,6 +21,12 @@
 
     <!-- 模块说明：这里声明多个子模块 -->
     <modules>
+        <module>gs-rest-service</module>
+        <module>gs-consuming-rest</module>
+        <module>gs-accessing-data-jpa</module>
+        <module>gs-securing-web</module>
+        <module>tutorials-rest</module>
+        <module>tutorials-security</module>
     </modules>
 
     <!-- 在properties中统一控制依赖包的版本，更清晰-->
