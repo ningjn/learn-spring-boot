@@ -34,6 +34,8 @@
         <java.version>11</java.version>
         <!--中文转拼音-->
         <pinyin4j.version>2.5.1</pinyin4j.version>
+        <!--swagger-->
+        <springfox.version>3.0.0</springfox.version>
     </properties>
 
     <!--在此处统一加，子项目pom就可以不用引入了-->
@@ -47,6 +49,13 @@
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
             <optional>true</optional>
+        </dependency>
+
+        <!--http://localhost:8080/springfox/swagger-ui/index.html-->
+        <dependency>
+            <groupId>io.springfox</groupId>
+            <artifactId>springfox-boot-starter</artifactId>
+            <version>${springfox.version}</version>
         </dependency>
 
         <dependency>
